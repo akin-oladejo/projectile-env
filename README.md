@@ -4,7 +4,7 @@ Solve a custom `gym` projectile environment with q-learning implemented from scr
 
 ## The Environment
 A device shoots a projectile from the ground toward a target that is also at ground level. The device is initialized with a default initial velocity (we'll set this to 15m/s but you can change it if you want). Assuming acceleration due to gravity (g) is 9.8m/s², given a discrete target distance, determine the nearest <ins>available</ins> angle (in degrees) the projectile should be jetted at. 
-
+![projectile render](projectile_img.png)  
 Note: We also supply the target range. The standard q-learning algorithm is commonly applied to discrete state and action spaces so it is more intuitive to provide whole number target values (and thus whole number states)
 
 Also, in this environment, there are nine angles available: 5°, 10°, 15°, 20°, 25°, 30°, 35°, 40° and 45°
